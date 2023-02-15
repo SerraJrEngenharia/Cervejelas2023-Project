@@ -2,14 +2,32 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="./assets/cervejelasIcon-35aba1e0.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cervejelas 2030</title>
-    <script type="module" crossorigin src="/dist/assets/index-fe5b3719.js"></script>
-    <link rel="stylesheet" href="/dist/assets/index-9e6bc9e9.css">
+
+    <meta name="description" content="Site oficial do evento CervejElas 2023 (21 e 22 de janeiro). Se trata de um evento de conquista de espaço social, de aculturamento e democratização da cerveja, desde o consumo, passando pela produção, até o plantio e colheita do lúpulo.">
+
+    <title>CervejElas 2023</title>
+    <script type="module" crossorigin src="./assets/index-d4a0feec.js"></script>
+    <link rel="stylesheet" href="./assets/index-3e5f36f2.css">
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Código do Vlibras -->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
     
   </body>
 </html>
